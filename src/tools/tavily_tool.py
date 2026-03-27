@@ -1,6 +1,6 @@
 from langchain_tavily import TavilySearch
 import os
-from src.config.config import TAVILTY_API_KEY
+from src.config.config import TAVILY_API_KEY
 from src.utils.logger import get_logger
 logger = get_logger(__name__)
 
@@ -11,7 +11,7 @@ def tavily_search(query :str) -> str:
         logger.info(f"Performing Tavily search for query: {query}")
         tavily = TavilySearch(max_results = 5,
                             topic = "general",
-                            tavily_api_key=TAVILTY_API_KEY)
+                            tavily_api_key=TAVILY_API_KEY)
         result = tavily.invoke({"query":query})
         logger.info(f"Tavily search completed successfully for query: {query}")
         return result

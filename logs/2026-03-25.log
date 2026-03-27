@@ -1,0 +1,25 @@
+2026-03-25 22:15:35,134 - ERROR - TAVILTY_API_KEY is not set in the environment variables.
+2026-03-25 22:17:16,353 - ERROR - SERP_API_KEY is not set in the environment variables.
+2026-03-25 22:17:52,420 - INFO - All API keys loaded successfully and config initialized.
+2026-03-25 22:20:06,803 - INFO - All API keys loaded successfully and config initialized.
+2026-03-25 22:20:29,354 - INFO - All API keys loaded successfully and config initialized.
+2026-03-25 22:25:21,848 - INFO - All API keys loaded successfully and config initialized.
+2026-03-25 22:25:22,151 - INFO - Travel agent created successfully with the specified model and tools.
+2026-03-25 22:26:24,503 - INFO - All API keys loaded successfully and config initialized.
+2026-03-25 22:26:25,086 - INFO - Travel agent created successfully with the specified model and tools.
+2026-03-25 22:26:34,929 - INFO - TravelPlanner initialized successfully with the travel agent.
+2026-03-25 22:26:35,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 22:26:35,701 - INFO - Performing Tavily search for query: Paris culture food January events
+2026-03-25 22:26:35,708 - INFO - Performing Tavily search for query: Paris accommodations balanced travel style
+2026-03-25 22:26:35,717 - INFO - Performing Tavily search for query: Paris dining options moderate pace
+2026-03-25 22:26:35,722 - INFO - Performing Google Serper search for query: Paris travel tips January
+2026-03-25 22:26:35,728 - INFO - Performing Google Serper search for query: Paris cultural events January
+2026-03-25 22:26:35,731 - INFO - Performing Google Serper search for query: Paris food scene January
+2026-03-25 22:26:36,499 - INFO - Google Serper search completed successfully for query: Paris travel tips January
+2026-03-25 22:26:36,616 - INFO - Google Serper search completed successfully for query: Paris food scene January
+2026-03-25 22:26:36,797 - INFO - Google Serper search completed successfully for query: Paris cultural events January
+2026-03-25 22:26:36,842 - INFO - Tavily search completed successfully for query: Paris culture food January events
+2026-03-25 22:26:37,045 - INFO - Tavily search completed successfully for query: Paris accommodations balanced travel style
+2026-03-25 22:26:37,205 - INFO - Tavily search completed successfully for query: Paris dining options moderate pace
+2026-03-25 22:26:39,928 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 22:26:39,938 - INFO - Successfully created itinerary for Paris with interests ['Culture', 'Food'] and travel style Balanced.
